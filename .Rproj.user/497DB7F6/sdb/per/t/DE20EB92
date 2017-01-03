@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\nlibrary(shiny)\n\nshinyUI(fluidPage(\n\n  # Application title\n  titlePanel(\"Old Faithful Geyser Data\"),\n\n  sidebarLayout(\n    sidebarPanel(\n      \n      # Add button\n      actionButton(inputId = \"add.button\", label = \"Add\", icon = icon(\"plus\")), \n      \n      # Delete button \n      actionButton(inputId = \"delete.button\", label = \"Delete\", icon = icon(\"minus\")),\n     \n       # Row selection\n      numericInput(inputId = \"row.selection\", label = \"Select row to be deleted\", min = 1, max = 100, value = \"\")\n    ),\n    mainPanel(\n      verbatimTextOutput('text')\n    )\n  )\n)\n)\n\n",
+    "created" : 1479773898363.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "931394709",
+    "id" : "DE20EB92",
+    "lastKnownWriteTime" : 1479775005,
+    "last_content_update" : 1479775005338,
+    "path" : "~/Desktop/Ashutosh's project/deletetable/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
